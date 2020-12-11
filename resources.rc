@@ -1,0 +1,6 @@
+#ifndef _resource_rc
+#define _resource_rc
+
+MAINICON ICON "shell32_137.ico"
+
+#endif //UNTITLED_RESOURCES_H

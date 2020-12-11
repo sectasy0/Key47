@@ -1,0 +1,10 @@
+prefix=C:/Users/Piotrek/vcpkg/packages/libjpeg-turbo_x86-windows-static
+exec_prefix=C:/Users/Piotrek/vcpkg/packages/libjpeg-turbo_x86-windows-static
+libdir=C:/Users/Piotrek/vcpkg/packages/libjpeg-turbo_x86-windows-static/lib
+includedir=C:/Users/Piotrek/vcpkg/packages/libjpeg-turbo_x86-windows-static/include
+
+Name: libjpeg
+Description: A SIMD-accelerated JPEG codec that provides the libjpeg API
+Version: 2.0.5
+Libs: -L${libdir} -ljpeg
+Cflags: -I${includedir}

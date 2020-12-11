@@ -1,0 +1,11 @@
+prefix=C:/Users/Piotrek/vcpkg/packages/tiff_x86-windows-static
+exec_prefix=C:/Users/Piotrek/vcpkg/packages/tiff_x86-windows-static
+libdir=C:/Users/Piotrek/vcpkg/packages/tiff_x86-windows-static/lib
+includedir=C:/Users/Piotrek/vcpkg/packages/tiff_x86-windows-static/include
+
+Name: libtiff
+Description:  Tag Image File Format (TIFF) library.
+Version: 4.1.0
+Libs: -LC:/Users/Piotrek/vcpkg/packages/tiff_x86-windows-static/lib -ltiff
+Libs.private: 
+Cflags: -IC:/Users/Piotrek/vcpkg/packages/tiff_x86-windows-static/include
