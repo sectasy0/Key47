@@ -11,7 +11,7 @@
 #define FROM            "example@gmail.com"
 #define TO              "example@gmail.com"
 #define USER_AGENT      "key47"
-#define SUBJECT         "Na chuj napierdalasz w te drzwi kurwa psychopatko jebana"
+#define SUBJECT         "example subject"
 
 const char *mail_url      = "smtp://smtp.gmail.com:587";
 const char *mail_username = "example@gmail.com";
